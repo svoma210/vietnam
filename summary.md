@@ -12,15 +12,16 @@ Přílet Hanoi 6. 4. 2025, odlet Ho Chi Minh City 20. 4. 2025.
 | 4–5 | **Ninh Binh** | Plavba Trang An (UNESCO), Mua Cave (výhled na rýžová pole), Bich Dong Pagoda |
 | 6–7 | **Hue** | Císařská citadela (UNESCO), královské hrobky Minh Mang a Tu Duc, Thien Mu Pagoda |
 | 8–10 | **Hội An** | Staré město (UNESCO), pláž An Bang, ruiny My Son (UNESCO) |
-| 11–12 | **Da Lat** | Crazy House, Xuan Huong Lake, kávové plantáže, Datanla Falls |
-| 13–15 | **Ho Chi Minh City** | War Remnants Museum, Ben Thanh, tunely Cu Chi, Cholon |
+| 11–13 | **Nha Trang** | Pláž Trần Phú, šnorchlování ostrovy Hon Mun, Po Nagar towers, noční vlak HCMC |
+| 14–15 | **Ho Chi Minh City** | War Remnants Museum, Cu Chi tunnels, Cholon, odlet SGN 05:10 |
 
 ## Klíčové přestupy
 - Hanoi → Ninh Binh: autobus (~2 hod)
-- Ninh Binh → Hue: noční vlak (soft sleeper)
+- Ninh Binh → Hue: **noční vlak** (soft sleeper) ← 1. lcůko
 - Hue → Hội An: minibusy přes průsmyk Hải Vân
-- Hội An / Da Nang → Da Lat: vnitrostátní let (~45 min)
-- Da Lat → Ho Chi Minh City: vnitrostátní let (~45 min)
+- Hội An/Da Nang → **Nha Trang**: noční vlak SE5 (~20:22, soft sleeper) ← 2. lůžko
+- **Nha Trang → Ho Chi Minh City**: noční vlak SE1/SE3 (~22:00, soft sleeper) ← 3. lůžko
+- Celkem: **3× noční vlak** (0 vnitrostátních letů)
 
 ## Stav webu
 - ✅ index.html – hlavní přehledová stránka
