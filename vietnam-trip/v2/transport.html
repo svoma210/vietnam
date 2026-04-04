@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doprava – Vietnam 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">🇻🇳 Vietnam 2026</a>
+    <button class="hamburger" id="hamburger" aria-label="Otevřít menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="itinerary.html">Itinerář</a></li>
+      <li><a href="transport.html">Doprava</a></li>
+      <li><a href="food.html">Jídlo</a></li>
+      <li><a href="tips.html">Tipy</a></li>
+      <li><a href="budget.html">Rozpočet</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="hero hero-page">
+  <div class="container">
+    <h1>✈️ Doprava</h1>
+    <p class="page-desc">Přesuny mezi městy · 1× autobus + 2× domácí lety · 0 nočních vlaků</p>
+  </div>
+</div>
+
+<main>
+  <div class="container">
+
+    <div class="stats-grid">
+      <div class="stat-card"><span class="stat-icon">✈️</span><span class="stat-num">2</span><div class="stat-label">domácí lety</div></div>
+      <div class="stat-card"><span class="stat-icon">🚌</span><span class="stat-num">2</span><div class="stat-label">autobusy</div></div>
+      <div class="stat-card"><span class="stat-icon">🚐</span><span class="stat-num">1</span><div class="stat-label">minibusy</div></div>
+      <div class="stat-card"><span class="stat-icon">🚕</span><span class="stat-num">∞</span><div class="stat-label">Grab taxi</div></div>
+    </div>
+
+    <h2 class="section-title">Přehled přesunů</h2>
+
+    <div style="overflow-x:auto;">
+      <table class="transport-table">
+        <thead>
+          <tr>
+            <th>Den</th>
+            <th>Odkud</th>
+            <th>Kam</th>
+            <th>Způsob</th>
+            <th>Čas</th>
+            <th>Délka</th>
+            <th>Cena / 2 os.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Den 1</td>
+            <td>Letiště HAN</td>
+            <td>Old Quarter</td>
+            <td>🚕 Grab taxi</td>
+            <td>Po příletu ~12:30</td>
+            <td>45–60 min</td>
+            <td>240–320 Kč</td>
+          </tr>
+          <tr>
+            <td>Den 4</td>
+            <td>Hanoj</td>
+            <td>Ninh Binh</td>
+            <td>🚌 Autobus</td>
+            <td>Ráno ~7:30</td>
+            <td>2 hod</td>
+            <td>240 Kč</td>
+          </tr>
+          <tr>
+            <td>Den 5</td>
+            <td>Ninh Binh</td>
+            <td>Hue</td>
+            <td>🚌 Autobus (Phương Trang)</td>
+            <td>Odjezd ~13:00</td>
+            <td>~7 hod</td>
+            <td>~440 Kč</td>
+          </tr>
+          <tr>
+            <td>Den 7</td>
+            <td>Hue</td>
+            <td>Hội An</td>
+            <td>🚐 Minibusy</td>
+            <td>Odpoledne ~13:00</td>
+            <td>3,5–4 hod</td>
+            <td>400–600 Kč</td>
+          </tr>
+          <tr>
+            <td>Den 10</td>
+            <td>Da Nang (DAD)</td>
+            <td>Nha Trang (CXR)</td>
+            <td>✈️ Let DAD→CXR</td>
+            <td>Odlet ~16:00</td>
+            <td>~1 hod</td>
+            <td>~900 Kč</td>
+          </tr>
+          <tr>
+            <td>Den 13</td>
+            <td>Nha Trang (CXR)</td>
+            <td>Ho Či Min. M. (SGN)</td>
+            <td>✈️ Let CXR→SGN</td>
+            <td>Odlet ~18:00</td>
+            <td>~1h 15m</td>
+            <td>~1 000 Kč</td>
+          </tr>
+          <tr>
+            <td>Den 15</td>
+            <td>HCMC centrum</td>
+            <td>Letiště SGN</td>
+            <td>🚕 Grab taxi</td>
+            <td>~2:30 ráno</td>
+            <td>20–40 min</td>
+            <td>240–360 Kč</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="section-title">Podrobnosti přesunů</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item flight">
+        <div class="tl-header">
+          <h3>✈️ Praha → Hanoj (HAN) – přílet</h3>
+          <span class="tl-mode flight">Let</span>
+        </div>
+        <p>Přílet 6. dubna v 11:55 na letiště Nội Bài (HAN). Po vyzvednutí zavazadel: zakupte SIM kartu Viettel (u vchodu do příletové haly).</p>
+        <div class="tl-meta">
+          <span><strong>Přílet:</strong> 6. dubna 11:55</span>
+          <span><strong>Letiště:</strong> Nội Bài International (HAN)</span>
+        </div>
+      </div>
+
+      <div class="timeline-item grab">
+        <div class="tl-header">
+          <h3>🚕 Letiště HAN → Old Quarter</h3>
+          <span class="tl-mode grab">Grab</span>
+        </div>
+        <p>Objednejte Grab taxi přímo z aplikace po průchodu přes příchozí halu. Nestoupejte do taxíků před letištěm – jsou dražší a podvádějí.</p>
+        <div class="tl-meta">
+          <span><strong>Délka:</strong> 30–45 km, 45–60 min</span>
+          <span><strong>Cena:</strong> 120–160 Kč/osobu</span>
+          <span><strong>Aplikace:</strong> Grab</span>
+        </div>
+      </div>
+
+      <div class="timeline-item bus">
+        <div class="tl-header">
+          <h3>🚌 Hanoj → Ninh Binh (Den 4)</h3>
+          <span class="tl-mode bus">Autobus</span>
+        </div>
+        <p>Autobus z autobusového nádraží Giap Bat nebo My Dinh. Přímé limuzínové autobusy zajišťuje několik operátorů (doporučeno: Hung Thanh, Queen Cafe). Nástupní místo u vašeho hotelu je možné dojednat předem.</p>
+        <div class="tl-meta">
+          <span><strong>Délka:</strong> ~2 hodiny (96 km)</span>
+          <span><strong>Cena:</strong> 100–130 Kč/osobu</span>
+          <span><strong>Frekvence:</strong> každou hodinu od ~6:00</span>
+        </div>
+      </div>
+
+      <div class="timeline-item bus">
+        <div class="tl-header">
+          <h3>🚌 Ninh Binh → Hue – odpolední autobus (Den 5)</h3>
+          <span class="tl-mode bus">Autobus</span>
+        </div>
+        <p>Přímý autobus operátora Phương Trang (Futa Bus Lines) nebo Hung Thanh. Odjezd z autobusového nádraží v Ninh Binh odpoledne. Pohodlný klimatizovaný autobus – přijedete do Hue odpočatí večer.</p>
+        <div class="tl-meta">
+          <span><strong>Odjezd:</strong> ~13:00 z Ninh Binh</span>
+          <span><strong>Příjezd:</strong> ~20:00 do Hue</span>
+          <span><strong>Délka:</strong> ~7 hodin</span>
+          <span><strong>Cena:</strong> ~220 Kč/osobu</span>
+          <span><strong>Rezervace:</strong> futabus.vn nebo v hotelu</span>
+        </div>
+        <div class="info-box success" style="margin-top:10px;">
+          ✅ Ninh Binh nemá letiště – autobus je nejpohodlnější volba. Přijedete do Hue večer odpočatí a připravení pro celý příští den.
+        </div>
+      </div>
+
+      <div class="timeline-item flight">
+        <div class="tl-header">
+          <h3>✈️ Da Nang → Nha Trang – let DAD→CXR (Den 10)</h3>
+          <span class="tl-mode flight">Let</span>
+        </div>
+        <p>Krátký vnitrostátní let z letiště Da Nang (DAD) na letiště Cam Ranh (CXR) u Nha Trangu. Dopravci: VietJet Air nebo Bamboo Airways. Z Hội An dojeďte Grabem na letiště Da Nang (~45 min, ~200 Kč). Přiletíte do Nha Trangu odpočatí odpoledne – celý první večer u moře!</p>
+        <div class="tl-meta">
+          <span><strong>Odlet:</strong> ~16:00 z Da Nang (DAD)</span>
+          <span><strong>Přílet:</strong> ~17:15 do Nha Trang (CXR)</span>
+          <span><strong>Délka:</strong> ~1 hodina</span>
+          <span><strong>Cena:</strong> ~450 Kč/osobu + taxi letišti</span>
+          <span><strong>Dopravci:</strong> VietJet Air, Bamboo Airways</span>
+        </div>
+      </div>
+
+      <div class="timeline-item flight">
+        <div class="tl-header">
+          <h3>✈️ Nha Trang → HCMC – let CXR→SGN (Den 13)</h3>
+          <span class="tl-mode flight">Let</span>
+        </div>
+        <p>Odpolední let z letiště Cam Ranh (CXR) na letiště Tân Sơn Nhất (SGN) v Ho Či Minově Městě. Dopravci: VietJet Air nebo Bamboo Airways. Přiletíte do HCMC večer – celý Den 14 máte plně k dispozici na průzkum Saigonu!</p>
+        <div class="tl-meta">
+          <span><strong>Odlet:</strong> ~18:00 z Nha Trang (CXR)</span>
+          <span><strong>Přílet:</strong> ~19:15 do HCMC (SGN)</span>
+          <span><strong>Délka:</strong> ~1 hodina 15 minut</span>
+          <span><strong>Cena:</strong> ~500 Kč/osobu</span>
+          <span><strong>Dopravci:</strong> VietJet Air, Bamboo Airways</span>
+        </div>
+        <div class="info-box success" style="margin-top:10px;">
+          ✅ Přiletíte do Saigonu odpočatí večer – žádné únava z nočního vlaku. Celý Den 14 (War Remnants Museum, Củ Chi Tunnels, Bui Vien) je váš!
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="tl-header">
+          <h3>🚐 Hue → Hội An přes průsmyk Hải Vân (Den 7)</h3>
+          <span class="tl-mode bus">Minibusy</span>
+        </div>
+        <p>Open Tour minibus nebo sdílený transfer. Trasa vede přes průsmyk Hải Vân – jedno z nejkrásnějších panoramat ve Vietnamu. Požádejte o zastávku na vrcholu (vyhlídka). Příjezd do Hội An odpolednem.</p>
+        <div class="tl-meta">
+          <span><strong>Délka:</strong> 3,5–4 hodiny (130 km)</span>
+          <span><strong>Cena:</strong> 200–300 Kč/osobu</span>
+          <span><strong>Zastávka:</strong> Hải Vân Pass (vrchol 496 m)</span>
+        </div>
+      </div>
+
+      <div class="timeline-item grab">
+        <div class="tl-header">
+          <h3>🚕 HCMC centrum → Letiště SGN (Den 15)</h3>
+          <span class="tl-mode grab">Grab</span>
+        </div>
+        <p>Odlet je v 5:10 ráno – odchod z hotelu kolem 2:30. Grab taxi je nejspolehlivější volba. Nechte si potvrdit dostupnost předem večer.</p>
+        <div class="tl-meta">
+          <span><strong>Odchod z hotelu:</strong> ~2:30 ráno</span>
+          <span><strong>Délka:</strong> 7–15 km (20–40 min)</span>
+          <span><strong>Cena:</strong> 120–180 Kč/osobu</span>
+        </div>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Tipy pro dopravu</h2>
+
+    <div class="card-grid">
+      <div class="tip-card">
+        <h3>✈️ Rezervace letů</h3>
+        <ul>
+          <li>Kupte lety online na <strong>vietjetair.com</strong> nebo <strong>bambooairways.com</strong></li>
+          <li>Alternativně přes <strong>Skyscanner</strong> nebo <strong>Google Flights</strong></li>
+          <li>Rezervujte alespoň 4–6 týdnů dopředu pro nejlepší ceny</li>
+          <li>Zavazadlo do podpalubí (7 kg) je v ceně – větší kufr za příplatek</li>
+          <li>Letiště CXR je 35 km od centra Nha Trangu – počítejte s Grabem (~150 Kč)</li>
+        </ul>
+      </div>
+      <div class="tip-card">
+        <h3>🚕 Grab – vietnamský Uber</h3>
+        <ul>
+          <li>Stáhněte aplikaci <strong>Grab</strong> ještě doma</li>
+          <li>Nabízí taxi, moto-taxi (GrabBike) i tuk-tuky</li>
+          <li>Vždy levnější a bezpečnější než pouliční taxi</li>
+          <li>Platba kartou nebo hotovostí</li>
+          <li>Při nasedání zkontrolujte SPZ s aplikací</li>
+        </ul>
+      </div>
+      <div class="tip-card">
+        <h3>🚌 Autobusy a minibus</h3>
+        <ul>
+          <li>Open Tour Bus: pohodlný minibus s rezervací míst</li>
+          <li>Hanoj–Ninh Binh: autobusy z Giap Bat nebo My Dinh</li>
+          <li>Hue–Hội An: sdílený minibus přes Hải Vân průsmyk</li>
+          <li>Vždy kupujte lístek předem, nebo v hotelu</li>
+          <li>Limuzínové autobusy (VIP) jsou pohodlnější</li>
+        </ul>
+      </div>
+      <div class="tip-card">
+        <h3>🚲 Místní doprava</h3>
+        <ul>
+          <li>V Hội An: půjčte si kolo (~1–2 USD/den) – ideální</li>
+          <li>V Hue: motorka nebo Grab pro výlety k hrobkám</li>
+          <li>V HCMC: vyhněte se motorce – provoz je intenzivní</li>
+          <li>Přecházení silnice: jděte pomalu a rovnoměrně</li>
+          <li>Nha Trang: vše pěšky nebo Grab</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info-box warning">
+      <strong>⚠️ Pozor na taxikáře na letišti:</strong> nikdy nenastupujte do taxi bez dohodnuté nebo metrované ceny. Používejte VŽDY Grab nebo předem objednaný hotel transfer.
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <strong>🇻🇳 Vietnam 2026</strong> · 6.–20. dubna 2026 · 2 cestující<br>
+  Hanoj → Ninh Binh → Hue → Hội An → Nha Trang → Ho Či Minovo Město
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
